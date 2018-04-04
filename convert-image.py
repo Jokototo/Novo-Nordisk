@@ -45,4 +45,4 @@ def azureml_main(dataframe1 = None, dataframe2 = None):
     dataframe1=pd.DataFrame(tva).transpose()
     colnames=['f'+str(i) for i in range(len(tva))]
     dataframe1.columns=colnames
-    return dataframe1,
+    return dataframe1
